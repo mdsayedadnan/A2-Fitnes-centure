@@ -75,6 +75,7 @@ nav ul {
     align-items: center;
     justify-content: space-between;
     margin-top: 150px;
+    padding: 50px;
 }
 
 /* .banner {
@@ -113,7 +114,7 @@ nav ul {
     position: absolute;
     padding: 7px 40px;
    
-    left: 1150px;
+    left: 1090px;
     top: 400px;
     box-sizing: border-box;
     border-radius: 12px;
@@ -176,7 +177,6 @@ padding: 17px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid green;
     margin-top: 30px;
     font-size: 25px;
 
@@ -262,23 +262,17 @@ padding: 17px;
 
     width: 366px;
     height: 312px;
-    border: 2px solid blue;
     margin: 20px;
     border-radius: 18px;
 }
 
 
-/* calculator part */
-.Calculator-section{
-   
-}
 .Calculator-part1{
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
    margin-top: 80px;
-    border: 2px solid salmon;
 }
 .bmi-calculator{
 
@@ -289,7 +283,6 @@ font-size: 48px;
     font-size: 15px;
 }
 .Calculator-part2{
-    border: 2px solid blue;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -333,7 +326,6 @@ font-size: 48px;
 
 .form-contant{
 
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -355,7 +347,6 @@ font-size: 48px;
 /* trem */
 
 .trem-div1 {
-    border: 3px solid yellowgreen;
     margin-top: 40px;
     align-items: center;
     justify-content: center;
@@ -523,7 +514,7 @@ nav ul{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
+padding: 0;
 }
 .banner-hedding{
     font-size: 35px;
@@ -559,6 +550,23 @@ nav ul{
     flex-direction: row;
 
 }
+
+.img-tag{
+    margin-top: 80px;
+}
+
+#btn-3 {
+    left: 85px;
+    top: 600px;
+
+}
+
+#btn-4 {
+
+    left: 50px;
+    top: 900px;
+}
+
 .btn-1-2{
     display: flex;
 }
